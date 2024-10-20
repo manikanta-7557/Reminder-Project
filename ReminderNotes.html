@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reminder Dashboard</title>
+    <link rel="stylesheet" href="../CSS/reminderStyles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Your Reminders</h1>
+        <form id="reminder-form">
+            <label for="title">Remainder Title:</label>
+            <input type="text" id="title" name="title" required>
+
+            <label for="description">Remainder Description:</label>
+            <textarea id="description" name="description"></textarea>
+
+            <label for="time">Reminder Time:</label>
+            <input type="datetime-local" id="time" name="time" required>
+
+            <button type="submit">Add Remainder</button>
+        </form>
+
+        <h2>Your Remainders</h2>
+        <div id="reminders-list"></div>
+    </div>
+
+    <script src="/JS/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Reminder App</title>
+    <link rel="stylesheet" href="../CSS/loginStyles.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>Login to Reminder App</h1>
+
+        <form id="login-form">
+            <div class="form-group">
+                <label for="username">Username or Email:</label>
+                <input type="text" id="username" name="username" placeholder = "Username or Email" required>
+            </div>
+            
+            <div class="form-group password-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder = "password" required>
+                <button type="button" id="togglePassword" class="toggle-button">Show</button>
+            </div>
+
+            <button type="submit">Login</button>
+        </form>
+
+        <p>New here? <a href="/HTML/signup.html" id="signup-link">create account</a></p>
+
+        <h2>Or Login with:</h2>
+        <div class="social-login">
+            <button id="google-login">Login with Google</button>
+            <button id="apple-login">Login with Apple</button>
+            <button id="microsoft-login">Login with Microsoft</button>
+        </div>
+    </div>
+
+    <script src="/JS/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+body {
+    background-color: #1a1a2e;
+    color: #eaeaea;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #e94560;
+}
+
+.login-container {
+    background-color: #16213e;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
+    width: 350px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input[type="text"], input[type="password"], textarea, input[type="datetime-local"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0f3460;
+    color: #eaeaea;
+    margin-bottom: 10px;
+}
+
+.password-group {
+    position: relative;
+}
+
+.password-group .toggle-button {
+    position: absolute;
+    right: 10px;
+    top: 40%;
+    width: 40px; 
+    height: 30px;
+    background-color: #e94560;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5), 0 0 10px rgba(233, 69, 96, 0.8);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.password-group .toggle-button:hover {
+    background-color: #d7234e;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7), 0 0 20px rgba(233, 69, 96, 1);
+}
+
+button {
+    background-color: #e94560;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #d7234e;
+}
+
+.social-login button {
+    background-color: #0f3460;
+    color: #eaeaea;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.social-login button:hover {
+    background-color: #1b3a69;
+}
