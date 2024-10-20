@@ -42,9 +42,9 @@ input[type="text"], input[type="password"], textarea, input[type="datetime-local
 
 .password-group .toggle-button {
     position: absolute;
-    right: 10px;
-    top: 40%;
-    width: 40px; 
+    right: 0px;
+    top: 10%;
+    width: 50px; 
     height: 30px;
     background-color: #e94560;
     color: white;
